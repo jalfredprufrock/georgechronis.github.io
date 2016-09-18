@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>George Chronis</title>
+	<link rel="stylesheet" type="text/css" href="mywebsitecss.css">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script>
+		$( document ).ready(function() {
+	  		$("#Head").hide();
+	     	$("#Head").fadeIn(3000, function(){});
+		});
+	</script>
+
+</head>
+<body>
+	<!-- TOO MUCH SPACE AT THE TOP!!! maybe put an animation, other image there? make my name bigger? nah.  move menu and make it horizontal? also, there's an optical illusion in the bright top part. making the text look like it's ascending from left to right,, might want to move everything onto the left side... maybe do something funky to the scrolling, do i want the backgruond static or moveable, NEED TO MAKE IT DISPLAY WELL ON NON MAXIMIZED BROWSER
+	Maybe center the header?? to see both extremes of the cool picture
+	-->
+	<div id="Head">
+		<div id="Name" >
+			George Chronis
+		</div>
+		<!-- unless i do some unique css or js for each of these menu items, i should get rid of the ids and just use the one class-->
+		<div id="Resume" class ="Header"><!-- should I just have a pdf download of my resume or make it actually display in the page?-->
+			<a href="george.com/#resume" alt="google.com">Resume</a>
+			<!-- So, I think I want to just have to where either the page reloads with just the linked page's content(just regular website), or have the linked page's display and replace whatever was there, like on the alohun website-->
+		</div>
+		<div id="Programs" class ="Header">
+			<a href="george.com/#programs" alt="google.com">Programs</a>
+		</div>
+		<div id="Links" class ="Header"><!-- Should I have a links link or just always put them at the bottom or somewhere else on the page?-->
+			<a href="george.com/#programs" alt="google.com">Links</a>
+		</div>
+		<div id="Photos" class ="Header">
+			<a href="george.com/#programs" alt="google.com">Photos</a>
+		</div>
+	</div>
+		<div id="Content">
+			<h1>Hi! Welcome to my Website!</h1>
+			<p>Instructions 
+			Write SQL queries for each of the 15 queries below and execute them on the database instance  provided in our BarBeerDrinker database (instructions how to connect and download SQL query workbench in the document posted in resources)
+			<br>
+			Submission Instruction:   Text file showing
+			<br>
+			a) Each query (15)
+			b) the results returned (15)
+			<br>
+			LIST OF QUERIES:
+			<br>
+			1. Bars which sell Michelob Amber Bock or Budweiser
+			2. Drinkers who like some beers other than Budweiser (they do not have to like Budweiser)
+			3. Beers other than Hefeweizen which are served by Gecko Grill bar
+			4. Bars who serve some beers which John likes
+			<br>
+			5. Drinkers who frequent bars which serve Original Premium Lager Dog
+			6. Bars which are frequented by John or Rebecca but not by both of them
+			7. Drinkers who frequent at least three bars
+			8. Drinkers who frequent bars which sell some beer they like
+			9. Beers which are served by bars which John frequents
+			<br>
+			10. Bars which serve some beers which John or Rebecca like and which are cheaper than $5
+			11. Bars which serve some beers which Mike likes or which John likes
+			12. Drinkers who like both Hefeweizen and Killian's
+			13. List all bars, beers they sell and beer prices in euros  
+			14. Bars with names containing "The"
+			15. Drinkers who like Killian's and who also frequent Gecko Grill
+			</p>
+	</div>
+</body>
+</html>
